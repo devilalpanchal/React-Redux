@@ -1,3 +1,42 @@
-.app{
+.app {
   text-align: center;
+}
+
+.imageShopping {
+  border: 2px solid blue;
+  padding: 30px;
+  width: 100px;
+  float: right;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+.increadinput {
+  top: 40px;
+  right: 120px;
+  position: absolute;
+  font-size: 50px;
+  color: red;
+}
+.cart-wrapper {
+  float: left;
+  border: 1px solid rgb(234, 219, 219);
+  width: 70%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 100px;
+  border-radius: 10px;
+}
+.imageMobile {
+  width: 400px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.buton{
+  width: 200px;
+  padding: 13px;
+  background-color: rgb(170, 153, 153);
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
