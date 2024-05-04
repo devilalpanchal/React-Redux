@@ -6,7 +6,7 @@ const Home = (props) => {
   return (
     <div>
       <div>
-        <h2 className="increadinput">+</h2>
+        <h2 className="increadinput">{props.data.length}</h2>
         <img className="imageShopping" src="./public\ShoppingCart.svg"/>
       </div>
       <h1>Home Component</h1>

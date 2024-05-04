@@ -2,14 +2,15 @@ import { ADD_TO_CART } from "../Constant";
 const initialState = {
   cardData: [],
 };
-export default function cardItems( state = initialState, action) {
+export default function cardItems( state = [], action) {
   switch (action.type) {
     case ADD_TO_CART:
-        // console.log(reducer)
-      return {
-        ...StaticRange,
-        cardData: action.data,
-      };
+      return [
+
+ ...StaticRange,
+       { cardData: action.data}
+      ]
+       
       break;
       default:
         return state
